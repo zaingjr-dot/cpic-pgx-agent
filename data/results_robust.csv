@@ -1,0 +1,91 @@
+parsed,phenotype_ok,action_ok,strength_ok,dangerous,overreach,case_id,category,setup,model_action,tool_calls,tool_found
+1,1.0,1.0,1.0,0.0,0.0,R01,robust_gene_prefix,LLM alone,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R02,robust_pipe_separator,LLM alone,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R03,robust_indication_in_words,LLM alone,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R04,robust_brand_name,LLM alone,standard_dose,,
+1,,0.0,0.0,0.0,1.0,R05,robust_missing_indication,LLM alone,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R06,robust_gene_prefix,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R07,robust_pipe_separator,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R08,robust_indication_in_words,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R09,robust_brand_name,LLM alone,avoid_clopidogrel,,
+1,,0.0,0.0,0.0,1.0,R10,robust_missing_indication,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R11,robust_gene_prefix,LLM alone,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R12,robust_pipe_separator,LLM alone,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R13,robust_indication_in_words,LLM alone,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R14,robust_brand_name,LLM alone,standard_dose,,
+1,,0.0,0.0,0.0,1.0,R15,robust_missing_indication,LLM alone,standard_dose,,
+1,0.0,1.0,1.0,0.0,0.0,R16,robust_gene_prefix,LLM alone,avoid_clopidogrel,,
+1,0.0,1.0,1.0,0.0,0.0,R17,robust_pipe_separator,LLM alone,avoid_clopidogrel,,
+1,0.0,0.0,1.0,0.0,0.0,R18,robust_indication_in_words,LLM alone,consider_alternative,,
+1,0.0,1.0,1.0,0.0,0.0,R19,robust_brand_name,LLM alone,avoid_clopidogrel,,
+1,,0.0,0.0,0.0,1.0,R20,robust_missing_indication,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R21,robust_gene_prefix,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R22,robust_pipe_separator,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R23,robust_indication_in_words,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R24,robust_brand_name,LLM alone,avoid_clopidogrel,,
+1,,0.0,0.0,0.0,1.0,R25,robust_missing_indication,LLM alone,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R26,robust_gene_prefix,LLM alone,no_recommendation,,
+1,1.0,0.0,0.0,0.0,1.0,R27,robust_pipe_separator,LLM alone,standard_dose,,
+1,1.0,0.0,0.0,0.0,1.0,R28,robust_indication_in_words,LLM alone,standard_dose,,
+1,1.0,0.0,0.0,0.0,1.0,R29,robust_brand_name,LLM alone,standard_dose,,
+1,,0.0,0.0,0.0,1.0,R30,robust_missing_indication,LLM alone,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R01,robust_gene_prefix,LLM + guideline,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R02,robust_pipe_separator,LLM + guideline,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R03,robust_indication_in_words,LLM + guideline,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R04,robust_brand_name,LLM + guideline,standard_dose,,
+1,,1.0,1.0,0.0,0.0,R05,robust_missing_indication,LLM + guideline,not_covered,,
+1,1.0,1.0,1.0,0.0,0.0,R06,robust_gene_prefix,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R07,robust_pipe_separator,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R08,robust_indication_in_words,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R09,robust_brand_name,LLM + guideline,avoid_clopidogrel,,
+1,,1.0,1.0,0.0,0.0,R10,robust_missing_indication,LLM + guideline,not_covered,,
+1,1.0,1.0,1.0,0.0,0.0,R11,robust_gene_prefix,LLM + guideline,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R12,robust_pipe_separator,LLM + guideline,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R13,robust_indication_in_words,LLM + guideline,standard_dose,,
+1,1.0,1.0,1.0,0.0,0.0,R14,robust_brand_name,LLM + guideline,standard_dose,,
+1,,1.0,1.0,0.0,0.0,R15,robust_missing_indication,LLM + guideline,not_covered,,
+1,1.0,1.0,1.0,0.0,0.0,R16,robust_gene_prefix,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R17,robust_pipe_separator,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R18,robust_indication_in_words,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R19,robust_brand_name,LLM + guideline,avoid_clopidogrel,,
+1,,1.0,1.0,0.0,0.0,R20,robust_missing_indication,LLM + guideline,not_covered,,
+1,1.0,1.0,1.0,0.0,0.0,R21,robust_gene_prefix,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R22,robust_pipe_separator,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R23,robust_indication_in_words,LLM + guideline,avoid_clopidogrel,,
+1,1.0,1.0,1.0,0.0,0.0,R24,robust_brand_name,LLM + guideline,avoid_clopidogrel,,
+1,,1.0,1.0,0.0,0.0,R25,robust_missing_indication,LLM + guideline,not_covered,,
+1,1.0,1.0,1.0,0.0,0.0,R26,robust_gene_prefix,LLM + guideline,no_recommendation,,
+1,1.0,1.0,1.0,0.0,0.0,R27,robust_pipe_separator,LLM + guideline,no_recommendation,,
+1,1.0,1.0,1.0,0.0,0.0,R28,robust_indication_in_words,LLM + guideline,no_recommendation,,
+1,1.0,1.0,1.0,0.0,0.0,R29,robust_brand_name,LLM + guideline,no_recommendation,,
+1,,1.0,1.0,0.0,0.0,R30,robust_missing_indication,LLM + guideline,not_covered,,
+1,0.0,0.0,0.0,0.0,0.0,R01,robust_gene_prefix,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R02,robust_pipe_separator,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R03,robust_indication_in_words,LLM + tool,not_covered,1.0,False
+1,1.0,1.0,1.0,0.0,0.0,R04,robust_brand_name,LLM + tool,standard_dose,1.0,True
+1,,1.0,1.0,0.0,0.0,R05,robust_missing_indication,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R06,robust_gene_prefix,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R07,robust_pipe_separator,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R08,robust_indication_in_words,LLM + tool,not_covered,1.0,False
+1,1.0,1.0,1.0,0.0,0.0,R09,robust_brand_name,LLM + tool,avoid_clopidogrel,1.0,True
+1,,1.0,1.0,0.0,0.0,R10,robust_missing_indication,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R11,robust_gene_prefix,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R12,robust_pipe_separator,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R13,robust_indication_in_words,LLM + tool,not_covered,1.0,False
+1,1.0,1.0,1.0,0.0,0.0,R14,robust_brand_name,LLM + tool,standard_dose,2.0,False
+1,,1.0,1.0,0.0,0.0,R15,robust_missing_indication,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R16,robust_gene_prefix,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R17,robust_pipe_separator,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R18,robust_indication_in_words,LLM + tool,not_covered,1.0,False
+1,1.0,1.0,1.0,0.0,0.0,R19,robust_brand_name,LLM + tool,avoid_clopidogrel,1.0,True
+1,,1.0,1.0,0.0,0.0,R20,robust_missing_indication,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R21,robust_gene_prefix,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R22,robust_pipe_separator,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R23,robust_indication_in_words,LLM + tool,not_covered,1.0,False
+1,1.0,1.0,1.0,0.0,0.0,R24,robust_brand_name,LLM + tool,avoid_clopidogrel,1.0,True
+1,,1.0,1.0,0.0,0.0,R25,robust_missing_indication,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R26,robust_gene_prefix,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R27,robust_pipe_separator,LLM + tool,not_covered,1.0,False
+1,0.0,0.0,0.0,0.0,0.0,R28,robust_indication_in_words,LLM + tool,not_covered,1.0,False
+1,1.0,1.0,1.0,0.0,0.0,R29,robust_brand_name,LLM + tool,no_recommendation,1.0,True
+1,,1.0,1.0,0.0,0.0,R30,robust_missing_indication,LLM + tool,not_covered,1.0,False

@@ -1,0 +1,37 @@
+GUIDELINE EXCERPT: CPIC 2022 update, CYP2C19 genotype and clopidogrel therapy
+
+Allele function: *1 = normal function; *2 and *3 = no function; *9 = decreased function; *17 = increased function. Any other allele (for example *12) has uncertain function.
+
+How a diplotype becomes a phenotype:
+- two normal-function alleles: Normal metabolizer
+- one normal-function + one increased-function allele: Rapid metabolizer
+- two increased-function alleles: Ultrarapid metabolizer
+- one normal-function + one no-function allele, OR one increased-function + one no-function allele: Intermediate metabolizer
+- two no-function alleles: Poor metabolizer
+- one normal + one decreased, OR one increased + one decreased, OR two decreased: Likely intermediate metabolizer
+- one decreased + one no-function allele: Likely poor metabolizer
+- one or two uncertain-function alleles: Indeterminate (the recommendation tables below contain no recommendation for it)
+
+A "Likely" phenotype gets the same recommendation and strength as the corresponding confirmed phenotype (Likely intermediate = Intermediate; Likely poor = Poor).
+
+Recommendations when considering clopidogrel, by indication:
+Indication: ACS/PCI
+- Ultrarapid metabolizer: If considering clopidogrel, use at standard dose (75 mg/day) (strength: Strong)
+- Rapid metabolizer: If considering clopidogrel, use at standard dose (75 mg/day) (strength: Strong)
+- Normal metabolizer: If considering clopidogrel, use at standard dose (75 mg/day) (strength: Strong)
+- Intermediate metabolizer: Avoid standard dose (75 mg) clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication. (strength: Strong)
+- Poor metabolizer: Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication. (strength: Strong)
+
+Indication: non-ACS non-PCI cardiovascular
+- Ultrarapid metabolizer: No recommendation (strength: No recommendation)
+- Rapid metabolizer: No recommendation (strength: No recommendation)
+- Normal metabolizer: If considering clopidogrel, use at standard dose (75 mg/day) (strength: Strong)
+- Intermediate metabolizer: No recommendation (strength: No recommendation)
+- Poor metabolizer: Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication. (strength: Moderate)
+
+Indication: neurovascular
+- Ultrarapid metabolizer: No recommendation (strength: No recommendation)
+- Rapid metabolizer: No recommendation (strength: No recommendation)
+- Normal metabolizer: If considering clopidogrel, use at standard dose (75 mg/day) (strength: Strong)
+- Intermediate metabolizer: Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication. (strength: Moderate)
+- Poor metabolizer: Avoid clopidogrel if possible. Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication. (strength: Moderate)

@@ -1,0 +1,31 @@
+case_id,gene,diplotype,drug,indication,category,expected_phenotype,expected_strength,expected_recommendation,source_case
+R01,CYP2C19,CYP2C19*1/*17,clopidogrel,ACS/PCI,robust_gene_prefix,Rapid metabolizer,Strong,"If considering clopidogrel, use at standard dose (75 mg/day)",C02
+R02,CYP2C19,*1|*17,clopidogrel,ACS/PCI,robust_pipe_separator,Rapid metabolizer,Strong,"If considering clopidogrel, use at standard dose (75 mg/day)",C02
+R03,CYP2C19,*1/*17,clopidogrel,acute coronary syndrome or coronary stent placement,robust_indication_in_words,Rapid metabolizer,Strong,"If considering clopidogrel, use at standard dose (75 mg/day)",C02
+R04,CYP2C19,*1/*17,Plavix,ACS/PCI,robust_brand_name,Rapid metabolizer,Strong,"If considering clopidogrel, use at standard dose (75 mg/day)",C02
+R05,CYP2C19,*1/*17,clopidogrel,not specified,robust_missing_indication,NOT COVERED,NOT COVERED,NOT COVERED,C02
+R06,CYP2C19,CYP2C19*2/*2,clopidogrel,ACS/PCI,robust_gene_prefix,Poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C06
+R07,CYP2C19,*2|*2,clopidogrel,ACS/PCI,robust_pipe_separator,Poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C06
+R08,CYP2C19,*2/*2,clopidogrel,acute coronary syndrome or coronary stent placement,robust_indication_in_words,Poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C06
+R09,CYP2C19,*2/*2,Plavix,ACS/PCI,robust_brand_name,Poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C06
+R10,CYP2C19,*2/*2,clopidogrel,not specified,robust_missing_indication,NOT COVERED,NOT COVERED,NOT COVERED,C06
+R11,CYP2C19,CYP2C19*17/*17,clopidogrel,ACS/PCI,robust_gene_prefix,Ultrarapid metabolizer,Strong,"If considering clopidogrel, use at standard dose (75 mg/day)",C03
+R12,CYP2C19,*17|*17,clopidogrel,ACS/PCI,robust_pipe_separator,Ultrarapid metabolizer,Strong,"If considering clopidogrel, use at standard dose (75 mg/day)",C03
+R13,CYP2C19,*17/*17,clopidogrel,acute coronary syndrome or coronary stent placement,robust_indication_in_words,Ultrarapid metabolizer,Strong,"If considering clopidogrel, use at standard dose (75 mg/day)",C03
+R14,CYP2C19,*17/*17,Plavix,ACS/PCI,robust_brand_name,Ultrarapid metabolizer,Strong,"If considering clopidogrel, use at standard dose (75 mg/day)",C03
+R15,CYP2C19,*17/*17,clopidogrel,not specified,robust_missing_indication,NOT COVERED,NOT COVERED,NOT COVERED,C03
+R16,CYP2C19,CYP2C19*2/*9,clopidogrel,ACS/PCI,robust_gene_prefix,Likely poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C22
+R17,CYP2C19,*2|*9,clopidogrel,ACS/PCI,robust_pipe_separator,Likely poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C22
+R18,CYP2C19,*2/*9,clopidogrel,acute coronary syndrome or coronary stent placement,robust_indication_in_words,Likely poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C22
+R19,CYP2C19,*2/*9,Plavix,ACS/PCI,robust_brand_name,Likely poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C22
+R20,CYP2C19,*2/*9,clopidogrel,not specified,robust_missing_indication,NOT COVERED,NOT COVERED,NOT COVERED,C22
+R21,CYP2C19,CYP2C19*2/*3,clopidogrel,ACS/PCI,robust_gene_prefix,Poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C20
+R22,CYP2C19,*2|*3,clopidogrel,ACS/PCI,robust_pipe_separator,Poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C20
+R23,CYP2C19,*2/*3,clopidogrel,acute coronary syndrome or coronary stent placement,robust_indication_in_words,Poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C20
+R24,CYP2C19,*2/*3,Plavix,ACS/PCI,robust_brand_name,Poor metabolizer,Strong,Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,C20
+R25,CYP2C19,*2/*3,clopidogrel,not specified,robust_missing_indication,NOT COVERED,NOT COVERED,NOT COVERED,C20
+R26,CYP2C19,CYP2C19*1/*17,clopidogrel,neurovascular,robust_gene_prefix,Rapid metabolizer,No recommendation,No recommendation,C13
+R27,CYP2C19,*1|*17,clopidogrel,neurovascular,robust_pipe_separator,Rapid metabolizer,No recommendation,No recommendation,C13
+R28,CYP2C19,*1/*17,clopidogrel,secondary prevention of ischemic stroke,robust_indication_in_words,Rapid metabolizer,No recommendation,No recommendation,C13
+R29,CYP2C19,*1/*17,Plavix,neurovascular,robust_brand_name,Rapid metabolizer,No recommendation,No recommendation,C13
+R30,CYP2C19,*1/*17,clopidogrel,not specified,robust_missing_indication,NOT COVERED,NOT COVERED,NOT COVERED,C13

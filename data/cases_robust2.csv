@@ -1,0 +1,21 @@
+case_id,gene,diplotype,drug,indication,category,expected_phenotype,expected_strength,expected_recommendation,source_case
+S01,CYP2C19,CYP2C19*17/*17,clopidogrel,neurovascular,robust2_gene_prefix,Ultrarapid metabolizer,No recommendation,No recommendation,C12
+S02,CYP2C19,*17|*17,clopidogrel,neurovascular,robust2_pipe_separator,Ultrarapid metabolizer,No recommendation,No recommendation,C12
+S03,CYP2C19,*17/*17,clopidogrel,stroke or TIA prevention,robust2_indication_words,Ultrarapid metabolizer,No recommendation,No recommendation,C12
+S04,CYP2C19,17/17,clopidogrel,neurovascular,robust2_UNSEEN_no_stars,Ultrarapid metabolizer,No recommendation,No recommendation,C12
+S05,CYP2C19,*17/*17,clopidogrel,ischemic attack prevention,robust2_UNSEEN_odd_indication,Ultrarapid metabolizer,No recommendation,No recommendation,C12
+S06,CYP2C19,CYP2C19*17/*17,clopidogrel,non-ACS non-PCI cardiovascular,robust2_gene_prefix,Ultrarapid metabolizer,No recommendation,No recommendation,C07
+S07,CYP2C19,*17|*17,clopidogrel,non-ACS non-PCI cardiovascular,robust2_pipe_separator,Ultrarapid metabolizer,No recommendation,No recommendation,C07
+S08,CYP2C19,*17/*17,clopidogrel,peripheral artery disease,robust2_indication_words,Ultrarapid metabolizer,No recommendation,No recommendation,C07
+S09,CYP2C19,17/17,clopidogrel,non-ACS non-PCI cardiovascular,robust2_UNSEEN_no_stars,Ultrarapid metabolizer,No recommendation,No recommendation,C07
+S10,CYP2C19,*17/*17,clopidogrel,poor circulation in the legs,robust2_UNSEEN_odd_indication,Ultrarapid metabolizer,No recommendation,No recommendation,C07
+S11,CYP2C19,CYP2C19*1/*2,clopidogrel,non-ACS non-PCI cardiovascular,robust2_gene_prefix,Intermediate metabolizer,No recommendation,No recommendation,C10
+S12,CYP2C19,*1|*2,clopidogrel,non-ACS non-PCI cardiovascular,robust2_pipe_separator,Intermediate metabolizer,No recommendation,No recommendation,C10
+S13,CYP2C19,*1/*2,clopidogrel,peripheral artery disease,robust2_indication_words,Intermediate metabolizer,No recommendation,No recommendation,C10
+S14,CYP2C19,1/2,clopidogrel,non-ACS non-PCI cardiovascular,robust2_UNSEEN_no_stars,Intermediate metabolizer,No recommendation,No recommendation,C10
+S15,CYP2C19,*1/*2,clopidogrel,poor circulation in the legs,robust2_UNSEEN_odd_indication,Intermediate metabolizer,No recommendation,No recommendation,C10
+S16,CYP2C19,CYP2C19*1/*2,clopidogrel,neurovascular,robust2_gene_prefix,Intermediate metabolizer,Moderate,Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.,C15
+S17,CYP2C19,*1|*2,clopidogrel,neurovascular,robust2_pipe_separator,Intermediate metabolizer,Moderate,Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.,C15
+S18,CYP2C19,*1/*2,clopidogrel,stroke or TIA prevention,robust2_indication_words,Intermediate metabolizer,Moderate,Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.,C15
+S19,CYP2C19,1/2,clopidogrel,neurovascular,robust2_UNSEEN_no_stars,Intermediate metabolizer,Moderate,Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.,C15
+S20,CYP2C19,*1/*2,clopidogrel,ischemic attack prevention,robust2_UNSEEN_odd_indication,Intermediate metabolizer,Moderate,Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.,C15

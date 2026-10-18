@@ -1,0 +1,61 @@
+parsed,phenotype_ok,action_ok,strength_ok,dangerous,overreach,case_id,category,setup,model_action
+1,1.0,1.0,1.0,0.0,0.0,S01,robust2_gene_prefix,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S02,robust2_pipe_separator,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S03,robust2_indication_words,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S04,robust2_UNSEEN_no_stars,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S05,robust2_UNSEEN_odd_indication,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S06,robust2_gene_prefix,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S07,robust2_pipe_separator,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S08,robust2_indication_words,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S09,robust2_UNSEEN_no_stars,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S10,robust2_UNSEEN_odd_indication,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S11,robust2_gene_prefix,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S12,robust2_pipe_separator,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S13,robust2_indication_words,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S14,robust2_UNSEEN_no_stars,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S15,robust2_UNSEEN_odd_indication,LLM + guideline,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S16,robust2_gene_prefix,LLM + guideline,consider_alternative
+1,1.0,1.0,1.0,0.0,0.0,S17,robust2_pipe_separator,LLM + guideline,consider_alternative
+1,1.0,1.0,1.0,0.0,0.0,S18,robust2_indication_words,LLM + guideline,consider_alternative
+1,1.0,1.0,1.0,0.0,0.0,S19,robust2_UNSEEN_no_stars,LLM + guideline,consider_alternative
+1,1.0,1.0,1.0,0.0,0.0,S20,robust2_UNSEEN_odd_indication,LLM + guideline,consider_alternative
+1,0.0,0.0,0.0,0.0,0.0,S01,robust2_gene_prefix,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S02,robust2_pipe_separator,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S03,robust2_indication_words,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S04,robust2_UNSEEN_no_stars,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S05,robust2_UNSEEN_odd_indication,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S06,robust2_gene_prefix,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S07,robust2_pipe_separator,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S08,robust2_indication_words,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S09,robust2_UNSEEN_no_stars,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S10,robust2_UNSEEN_odd_indication,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S11,robust2_gene_prefix,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S12,robust2_pipe_separator,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S13,robust2_indication_words,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S14,robust2_UNSEEN_no_stars,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S15,robust2_UNSEEN_odd_indication,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S16,robust2_gene_prefix,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S17,robust2_pipe_separator,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S18,robust2_indication_words,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S19,robust2_UNSEEN_no_stars,Tool v1,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S20,robust2_UNSEEN_odd_indication,Tool v1,not_covered
+1,1.0,1.0,1.0,0.0,0.0,S01,robust2_gene_prefix,Tool v2,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S02,robust2_pipe_separator,Tool v2,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S03,robust2_indication_words,Tool v2,no_recommendation
+1,0.0,0.0,0.0,0.0,0.0,S04,robust2_UNSEEN_no_stars,Tool v2,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S05,robust2_UNSEEN_odd_indication,Tool v2,not_covered
+1,1.0,1.0,1.0,0.0,0.0,S06,robust2_gene_prefix,Tool v2,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S07,robust2_pipe_separator,Tool v2,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S08,robust2_indication_words,Tool v2,no_recommendation
+1,0.0,0.0,0.0,0.0,0.0,S09,robust2_UNSEEN_no_stars,Tool v2,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S10,robust2_UNSEEN_odd_indication,Tool v2,not_covered
+1,1.0,1.0,1.0,0.0,0.0,S11,robust2_gene_prefix,Tool v2,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S12,robust2_pipe_separator,Tool v2,no_recommendation
+1,1.0,1.0,1.0,0.0,0.0,S13,robust2_indication_words,Tool v2,no_recommendation
+1,0.0,0.0,0.0,0.0,0.0,S14,robust2_UNSEEN_no_stars,Tool v2,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S15,robust2_UNSEEN_odd_indication,Tool v2,not_covered
+1,1.0,1.0,1.0,0.0,0.0,S16,robust2_gene_prefix,Tool v2,consider_alternative
+1,1.0,1.0,1.0,0.0,0.0,S17,robust2_pipe_separator,Tool v2,consider_alternative
+1,1.0,1.0,1.0,0.0,0.0,S18,robust2_indication_words,Tool v2,consider_alternative
+1,0.0,0.0,0.0,0.0,0.0,S19,robust2_UNSEEN_no_stars,Tool v2,not_covered
+1,0.0,0.0,0.0,0.0,0.0,S20,robust2_UNSEEN_odd_indication,Tool v2,not_covered

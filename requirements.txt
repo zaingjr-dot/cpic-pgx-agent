@@ -1,0 +1,4 @@
+pandas==2.2.3
+python-dotenv==1.1.0
+google-genai==2.29.0
+matplotlib==3.10.0
